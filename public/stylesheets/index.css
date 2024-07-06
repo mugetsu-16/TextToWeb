@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: #872341;
+}
+
+nav{
+    font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.8rem;
+  text-align: center;
+}
+
+#primary-options{
+    font-family: "Open Sans", sans-serif;
+    text-transform: capitalize;
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+
+#primary-options a {
+    text-decoration: none;
+    color: white;
+}

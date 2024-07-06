@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "open sans";
+  src: url("/fonts/open-sans-regular.ttf");
+}
+
+@font-face {
+  font-family: "helvatica";
+  src: url("/fonts/Helvetica-Bold.ttf");
+}
+
+:root {
+  --mgin: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: #0d233a;
+}
+
+#title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 1.99rem;
+  margin: 10px 0;
+  padding-left: 5px;
+}
+
+#chapter-title {
+  text-transform: capitalize;
+  font-family: "helvatica";
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  font-size: 1.99rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+#back,
+#forward {
+  border: none;
+  font-size: 0.9rem;
+  background-color: steelblue;
+  border-radius: 50px;
+  padding: 10px 8px;
+  cursor: pointer;
+}
+#back {
+  margin-left: var(--mgin);
+}
+
+#forward {
+  margin-right: var(--mgin);
+}
+
+#content{
+  font-family: 'open sans';
+  font-size: 1.4rem;
+  line-height: 3rem;
+  padding:0 10px;
+}
